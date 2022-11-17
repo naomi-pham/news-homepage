@@ -9,7 +9,7 @@ const CardBody = ({data}) => {
             <Link href="/">
                 <h5 className='text-base sm:text-xl'>{title}</h5>
             </Link>
-            <p className='text-sm opacity-80'>{body}</p>
+            <p className='text-sm sm:text-base opacity-70'>{body}</p>
         </div>
     )
 }
