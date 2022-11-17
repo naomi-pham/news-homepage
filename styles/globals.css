@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap');
+@import "./compositions/index.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 35 77% 62%;
+    --color-secondary: 5 85% 63%;
+    --color-light: 36 100% 99%;
+    --color-accent-light: 233 8% 79%;
+    --color-dark: 240 100% 5%;
+    --color-accent-dark: 236 12% 42%;
+  }
+  h1 {
+    @apply text-5xl font-extrabold
+  }
+  h2 {
+    @apply text-4xl font-bold
+  }
+  h3 {
+    @apply text-3xl font-bold
+  }
+  h4 {
+    @apply text-2xl font-bold
+  }
+  h5 {
+    @apply text-xl font-bold
+  }
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+nav a:hover {
+  color: hsl(var(--color-secondary) / 100)
+}
+
+a:hover {
+  color: hsl(var(--color-primary) / 100)
+}

@@ -1,0 +1,18 @@
+.stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--col-space, 2rem);
+}
+
+.stack-xl {
+    --col-space: 4rem;
+}
+
+.stack-sm {
+    --col-space: 1rem;
+}
+
+.stack-xs {
+    --col-space: .5rem;
+}
+
