@@ -1,14 +1,16 @@
 import Nav from "./Nav";
 import Footer from "./Footer";
 
-function Layout({children}) {
-    return (
-        <div className="stack justify-center lg:px-24 mb-4">
-            <Nav />
-            {children}
-            <Footer />
-        </div>
-    )
+function Layout({ children }) {
+  return (
+    <>
+      <Nav />
+      <main className="flex flex-col gap-20 sm:my-6 lg:px-24">
+        {children}
+      </main>
+      <Footer />
+    </>
+  );
 }
 
-export default Layout
+export default Layout;

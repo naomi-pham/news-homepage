@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap");
 @import "./compositions/index.css";
+@import "./utilities/index.css";
 
 @tailwind base;
 @tailwind components;
@@ -15,21 +16,20 @@
     --color-accent-dark: 236 12% 42%;
   }
   h1 {
-    @apply lg:text-6xl text-5xl font-extrabold
+    @apply text-5xl font-extrabold lg:text-6xl;
   }
   h2 {
-    @apply text-4xl font-bold
+    @apply text-4xl font-bold;
   }
   h3 {
-    @apply text-3xl font-bold
+    @apply text-3xl font-bold;
   }
   h4 {
-    @apply text-2xl font-bold
+    @apply text-2xl font-bold;
   }
   h5 {
-    @apply text-xl font-bold
+    @apply text-xl font-bold;
   }
-
 }
 
 * {
@@ -39,16 +39,17 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.935rem;
   line-height: 1.7;
-  background-color: hsl(var(--color-light) / 100));
+  background-color: hsl(var(--color-light) / 100);
+  padding: 0 2rem;
 }
 
 nav a:hover {
-  color: hsl(var(--color-secondary) / 100)
+  color: hsl(var(--color-secondary) / 100);
 }
 
 a:hover {
-  color: hsl(var(--color-primary) / 100)
+  color: hsl(var(--color-primary) / 100);
 }

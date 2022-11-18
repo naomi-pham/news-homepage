@@ -1,20 +1,19 @@
-import CardBody from './CardBody'
+import CardBody from "./CardBody";
 
-const CardWithImage = ({data}) => {
+const CardWithImage = ({ data }) => {
+  const { image, title, id } = data;
 
-    const {image, title, id} = data
+  return (
+    <div className="center grid grid-cols-3 gap-4">
+      <img className="col-span-1" src={image} alt={title} />
+      <div className="stack stack-xs col-span-2">
+        <p className="font-bold text-accent_light sm:text-5xl lg:text-3xl">
+          {id}
+        </p>
+        <CardBody data={data} />
+      </div>
+    </div>
+  );
+};
 
-    return (
-        <div className='grid grid-cols-3 gap-4 justify-center items-center'>
-            <img className='col-span-1' src={image} alt={title} />
-            <div className='col-span-2 stack stack-xs'>
-                <p className='sm:text-5xl lg:text-3xl font-bold text-accent_light'>{id}</p>
-                <CardBody
-                    data={data}
-                />
-            </div>
-        </div>
-    )
-}
-
-export default CardWithImage
+export default CardWithImage;
