@@ -8,7 +8,9 @@ Table of content:
 
 ## Overview
 
-This project is completed as part of [Frontend Mentor](https://www.frontendmentor.io/) challenge. It is coded with Next.js framework for React and TailwindCSS. You can view a demo [here](https://news-homepage-challenge.vercel.app/). Below is a summary of my learning after coding the project. I'm trying to make reusable components in case the project is expanded with more pages. Also, I applied some strategies to write shorter and prettier code with Tailwind. Any feedback is so welcome!
+This project is completed as part of [Frontend Mentor](https://www.frontendmentor.io/) challenge. It is coded with Next.js framework for React and TailwindCSS. You can view a demo [here](https://news-homepage-challenge.vercel.app/). 
+
+Below is a summary of my learning after coding the project. I'm trying to make reusable components in case the project is expanded with more pages. I also applied some strategies to write shorter and prettier code with Tailwind. Since this is a practice project, I do not intend to continue with it any further. However, any feedback is so welcome!
 
 ## Reusable component
 
