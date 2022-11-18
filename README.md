@@ -83,7 +83,7 @@ export { default as CardBody } from "./CardBody";
 export { default as CardWithImage } from "./CardWithImage";
 ```
 
-Then when import Card components to other file, we can use: 
+To import Card components to other file: 
 
 ```jsx
 import { CardBody } from "./components/Card" // if only use CardBody
