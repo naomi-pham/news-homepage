@@ -6,7 +6,7 @@ const CardBody = ({ data }) => {
   return (
     <div className="stack stack-xs">
       <Link href="/">
-        <h5 className="text-base sm:text-xl">{title}</h5>
+        <h3 className="text-base sm:text-xl">{title}</h3>
       </Link>
       <p className="text-sm sm:text-base opacity-70">{body}</p>
     </div>
