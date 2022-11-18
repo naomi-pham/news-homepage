@@ -22,7 +22,7 @@ const Nav = () => {
     <header>
       <nav className={style.wrapper}>
         {/* Nav Desktop */}
-        <img src={site.logo} />
+        <img src={site.logo} alt="logo" />
         <ul className={style.navList}>
           {nav.map((data) => (
             <li key={data.id}>
