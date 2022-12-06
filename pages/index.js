@@ -13,12 +13,12 @@ export default function Home() {
       </Head>
 
       <div className="grid grid-cols-1 gap-14 lg:grid-cols-3">
-        <div className="col-span-1 lg:col-span-2">
+        <article className="col-span-1 lg:col-span-2">
           <Feature data={data.main} />
-        </div>
-        <div className="col-span-1">
+        </article>
+        <article className="col-span-1">
           <New data={data.sidebar} />
-        </div>
+        </article>
       </div>
 
       <>
