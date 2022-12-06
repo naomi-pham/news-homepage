@@ -12,18 +12,18 @@ export default function Home() {
         <meta name="description" content="News homepage" />
       </Head>
 
-      <section className="grid grid-cols-1 gap-14 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-14 lg:grid-cols-3">
         <article className="col-span-1 lg:col-span-2">
           <Feature data={data.main} />
         </article>
         <aside className="col-span-1">
           <New data={data.sidebar} />
         </aside>
-      </section>
+      </div>
 
-      <section>
+      <>
         <Recent data={data.posts} />
-      </section>
+      </>
     </>
   );
 }
